@@ -1,6 +1,6 @@
 "use strict";
 
-const { sequelizeDatabase } = require("./src/auth/models/users-model.js");
+const { sequelizeDatabase } = require("./src/auth/models/index.js");
 const server = require("./src/server.js");
 
 // make sure our tables are created, start up the HTTP server.
